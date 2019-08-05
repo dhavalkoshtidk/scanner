@@ -1,0 +1,388 @@
+﻿
+a{
+    color: blue !important;
+}
+ #elb{
+     text-align: center
+ }
+ table, th, td  {
+    
+    border: 2px solid #00A0F1;
+    border-collapse: collapse;
+}
+
+ th {
+     width: 47%;
+    padding: 10px;
+    background-color: #00A1F9;
+    color: white;
+    opacity: 0.4
+}
+ td {
+     text-align: center
+ }
+div #vid{
+   
+    width:400px;
+    height:400px; 
+    overflow:hidden;
+
+}
+ #topbar-admin {
+        height: 180px;
+        width: 650px;
+        color: white;
+        background-color: #00A1F9;
+        font-family: Arial, Verdana, sans-serif;
+    }
+
+ /*a.nav {
+     color:white
+ }*/ 
+ 
+ /*@media (min-width: 1281px) {
+ 
+     body {
+         position: relative;
+         padding: 10px;
+     }
+ 
+     .content {
+         max-width: 400px;
+         margin: auto;
+         background: white;
+     }
+ 
+ 
+     button {
+         text-align: center;
+         width: 100px;
+         color: white;
+         background-color: #00A0F1;
+         padding: 7px;
+         font-size: medium;
+     }
+ 
+         button:hover {
+             background-color: #207FB7;
+         }
+ 
+     #topbar {
+         height: 100px;
+         width: 400px;
+         color: white;
+         background-color: #00A1F9;
+         font-family: Arial, Verdana, sans-serif;
+     }
+ 
+     img {
+         height: 100px;
+         width: auto;
+     }
+ 
+ }*/
+     
+@media (min-width: 1281px) {
+
+    body {
+        position: relative;
+        padding: 10px;
+    }
+
+    .content {
+        max-width: 400px;
+        margin: auto;
+        background: white;
+    }
+
+
+    button {
+        text-align: center;
+        width: 400px;
+        color: white;
+        background-color: #00A0F1;
+        padding: 7px;
+        font-size: medium;
+    }
+
+        button:hover {
+            background-color: #207FB7;
+        }
+
+    input[type=text], select {
+        width: 80%;
+        height: 39px;
+        padding: 10px 15px;
+        margin: 8px 0;
+        border-radius: 2px;
+        box-sizing: border-box
+    }
+    input[type=submit], select {
+        text-align: center;
+        width: 76px;
+        height: 39px;
+        color: white;
+        background-color: #00A0F1;
+        padding: 6px;
+        font-size: medium;
+    }
+
+    #topbar {
+        height: 100px;
+        width: 400px;
+        color: white;
+        background-color: #00A1F9;
+        font-family: Arial, Verdana, sans-serif;
+    }
+
+    img {
+        height: 100px;
+        width: auto;
+    }
+  
+    
+div #can{
+        position:relative;
+     /*    border: 1px solid yellow;*/
+        width:300px;
+        height:300px; 
+        overflow:hidden;
+        top: -400px
+    
+    }
+
+    #demo {
+    position: relative;
+    top: -400px
+}
+}
+ 
+ @media screen 
+ and (max-width: 720px)
+ and (orientation:portrait) {
+        body{
+     position: relative;
+     padding: 10px;
+ } 
+    .content {
+     max-width: 300px;
+     margin: auto;
+     background: white;
+    
+    }
+    
+    
+    
+ button{
+    
+    text-align: center;
+     bottom: 0px;
+     width: 300px;
+     color:white;
+     background-color: #00A0F1;
+     padding: 7px;
+     font-size: medium;
+     } 
+ button:hover{
+     background-color: 	#207FB7;
+ }
+ #topbar{
+     height: 100px;
+     width : 300px;
+     color : white;
+     background-color: #00A1F9;
+     font-family: Arial, Verdana, sans-serif;
+ 
+ }  
+ img{
+     height: 100px;
+     width: auto;
+ }
+ div #vid{
+    
+     width:300px;
+     height:300px; 
+     overflow:hidden;
+ }
+ 
+ 
+ 
+ div #can{
+      border: 1px solid yellow;
+    /* width:auto;
+     height:auto; */
+     overflow:hidden;
+ }
+ }
+ /*
+ @media screen 
+ and (min-width: 720px)
+ and (orientation:portrait) {
+      body{
+     position: relative;
+     padding: 10px;
+ } 
+     .content {
+     max-width: 400px;
+     margin: auto;
+     background: white;
+    
+     }
+  
+  
+ button{
+    
+    text-align: center;
+     bottom: 0px;
+     width: 400px;
+     color:white;
+     background-color: #00A0F1;
+     padding: 7px;
+     font-size: medium;
+     } 
+ button:hover{
+     background-color: 	#207FB7;
+ }
+ 
+ #topbar{
+     height: 100px;
+     width: 400px;
+     color : white;
+     background-color: #00A1F9;
+     font-family: Arial, Verdana, sans-serif;
+ 
+ }  
+ img{
+     height: 100px;
+     width: auto;
+ } 
+ div #vid{
+    
+     width:400px;
+     height:400px; 
+     overflow:hidden;
+ }
+ 
+ 
+ 
+ div #can{
+      border: 1px solid yellow;
+   
+     overflow:hidden;
+ }
+ 
+ }
+ 
+ @media screen 
+ and (max-width: 720px)
+ and (orientation:landscape) {
+     body{
+     position: relative;
+     padding: 10px;
+ } 
+    .content {
+     max-width: 300px;
+     margin: auto;
+     background: white;
+    
+    }
+    
+    
+    
+ button{
+    
+    text-align: center;
+     bottom: 0px;
+     width: 300px;
+     color:white;
+     background-color: #00A0F1;
+     padding: 7px;
+     font-size: medium;
+     } 
+ button:hover{
+     background-color: 	#207FB7;
+ }
+ #topbar{
+     height: 100px;
+     width : 300px;
+     color : white;
+     background-color: #00A1F9;
+     font-family: Arial, Verdana, sans-serif;
+ 
+ }  
+ img{
+     height: 100px;
+     width: auto;
+ }
+ div #vid{
+    
+     width:300px;
+     height:300px; 
+     overflow:hidden;
+ }
+ 
+ 
+ 
+ div #can{
+      border: 1px solid yellow;
+    
+     overflow:hidden;
+ }
+ }
+ 
+ @media screen 
+ and (min-width: 720px)
+ and (orientation:landscape) {
+        body{
+     position: relative;
+     padding: 10px;
+ } 
+     .content {
+     max-width: 400px;
+     margin: auto;
+     background: white;
+    
+     }
+  
+  
+ button{
+    
+    text-align: center;
+     bottom: 0px;
+     width: 400px;
+     color:white;
+     background-color: #00A0F1;
+     padding: 7px;
+     font-size: medium;
+     } 
+ button:hover{
+     background-color: 	#207FB7;
+ }
+ 
+ #topbar{
+     height: 100px;
+     width: 400px;
+     color : white;
+     background-color: #00A1F9;
+     font-family: Arial, Verdana, sans-serif;
+ 
+ }  
+ img{
+     height: 100px;
+     width: auto;
+ }
+ div #vid{
+    
+     width:400px;
+     height:400px; 
+     overflow:hidden;
+ }
+ 
+ 
+ 
+ div #can{
+      border: 1px solid yellow;
+    
+     overflow:hidden;
+ }
+ }*/
